@@ -20,7 +20,7 @@ function deepestChild() {
         next.push(grandNode[i]);
       }
     }
-  current  
+  next = current.shift();  
   }
 }
 
