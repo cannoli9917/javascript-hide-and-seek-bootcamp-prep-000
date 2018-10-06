@@ -12,7 +12,7 @@ function increaseRankBy(n) {
   }
 }
 function deepestChild() {
-  var grandNode = document.querySelectorAll('#grand-node div');
+  var grandNode = document.querySelector('#grand-node');
   var next = ();
   while (grandNode) {
     if (Array.isArray(grandNode)) {
@@ -20,7 +20,7 @@ function deepestChild() {
         next.push(grandNode[i]);
       }
     }
-  next = current.shift();  
+  grandNode = next.shift();  
   }
 }
 
