@@ -15,8 +15,11 @@ function deepestChild() {
   var grandNode = document.querySelectorAll('#grand-node div');
   var next = ();
   while (grandNode) {
-    if Array.isArray(grandNode) {
+    if (Array.isArray(grandNode)) {
       
     }
   }
 }
+
+
+
