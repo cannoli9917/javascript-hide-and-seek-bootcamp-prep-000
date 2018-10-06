@@ -17,7 +17,7 @@ function deepestChild() {
   while (grandNode) {
     if (Array.isArray(grandNode)) {
       for (var i = 0; i < grandNode.length; i++) {
-        
+        next.push(grandNode[i]);
       }
     }
   }
